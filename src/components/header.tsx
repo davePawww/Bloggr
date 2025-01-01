@@ -1,3 +1,5 @@
+import { SignedOut, SignInButton, SignedIn, UserButton } from "@clerk/nextjs";
+
 export default function Header() {
   return (
     <header className="flex items-center justify-between py-8">
@@ -11,9 +13,16 @@ export default function Header() {
           <li className="text-sm">My Stories</li>
         </ul>
 
-        <div className="flex size-9 items-center justify-center rounded-full bg-gray-300">
-          <p className="text-sm font-bold text-slate-800">CN</p>
-        </div>
+        <SignedOut>
+          <SignInButton>
+            <span className="cursor-pointer rounded-lg border px-4 py-1 text-sm transition hover:scale-90">
+              Login
+            </span>
+          </SignInButton>
+        </SignedOut>
+        <SignedIn>
+          <UserButton />
+        </SignedIn>
       </nav>
     </header>
   );
