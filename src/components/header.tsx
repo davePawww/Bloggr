@@ -1,5 +1,7 @@
 import { SignedOut, SignInButton, SignedIn, UserButton } from "@clerk/nextjs";
 
+import ThemeToggle from "./theme-toggle";
+
 export default function Header() {
   return (
     <header className="flex items-center justify-between py-8">
@@ -12,6 +14,8 @@ export default function Header() {
           <li className="text-sm">New Story</li>
           <li className="text-sm">My Stories</li>
         </ul>
+
+        <ThemeToggle />
 
         <SignedOut>
           <SignInButton>

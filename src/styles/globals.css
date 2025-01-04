@@ -3,5 +3,11 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-200 text-black dark:bg-gray-950 dark:text-white;
+  @apply bg-slate-200 text-black dark:bg-gray-950 dark:text-white;
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
 }
