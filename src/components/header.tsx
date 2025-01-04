@@ -1,6 +1,6 @@
 import { SignedOut, SignInButton, SignedIn, UserButton } from "@clerk/nextjs";
 
-import ThemeToggle from "./theme-toggle";
+// import ThemeToggle from "./theme-toggle";
 
 export default function Header() {
   return (
@@ -15,7 +15,7 @@ export default function Header() {
           <li className="text-sm">My Stories</li>
         </ul>
 
-        <ThemeToggle />
+        {/* <ThemeToggle /> */}
 
         <SignedOut>
           <SignInButton>
