@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://daily-bloggr.vercel.app/">
+    <img src="src/app/favicon.ico" alt="Logo" width="80" height="80">
+  </a>
+  <h3 align="center">Daily Bloggr</h3>
+</div>
 
-## Getting Started
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-First, run the development server:
+<!-- ABOUT THE PROJECT -->
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## About The Project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The web version of CRBRS Trading's daily-writes.
+This is a collection of distilled thoughts and ideas from the day.
+It's a place where I can write down my thoughts, reflect on the day, and share my insights with others.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Built With
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+[![Next][Next.js]][Next-url]
 
-## Learn More
+<!-- USAGE EXAMPLES -->
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Will add usage examples here once the v1 is released.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<!-- ROADMAP -->
 
-## Deploy on Vercel
+## Roadmap
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [ ] Post CRUD
+  - [ ] Read/View a post
+    - [x] Create the blog preview
+  - [ ] Create a post
+  - [ ] Update a post
+  - [ ] Delete a post
+  - [ ] Create documentation
+- [ ] UI changes
+  - [ ] Change Login button to shadcns' button to design it better
+  - [ ] mobile responsiveness
+  - [ ] Link to home when clicking the logo
+  - [ ] Change the preview of the blogpost to not show images(will be added as a challenge later)
+- [ ] Bookmark a post
+- [ ] Share a post
+  - [ ] Create documentation
+- [ ] Search Functionality
+  - [ ] Create documentation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<!-- CONTACT -->
+
+## Contact
+
+Your Name - paurillo.dave@gmail.com
+
+[product-screenshot]: images/screenshot.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
