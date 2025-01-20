@@ -7,7 +7,7 @@
   <h3 align="center">Daily Bloggr</h3>
 </div>
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Daily Bloggr][product-screenshot]](https://daily-bloggr.vercel.app/)
 
 <!-- ABOUT THE PROJECT -->
 
@@ -55,6 +55,6 @@ Will add usage examples here once the v1 is released.
 
 Your Name - paurillo.dave@gmail.com
 
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://github.com/user-attachments/assets/454537d2-24e9-41cf-bf19-cffbc35932e3
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
