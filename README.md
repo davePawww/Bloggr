@@ -53,7 +53,7 @@ Will add usage examples here once the v1 is released.
 
 ## Contact
 
-Your Name - paurillo.dave@gmail.com
+Email - paurillo.dave@gmail.com
 
 [product-screenshot]: https://github.com/user-attachments/assets/454537d2-24e9-41cf-bf19-cffbc35932e3
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
